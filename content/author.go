@@ -57,5 +57,6 @@ func init() {
 // String defines how a Author is printed. Update it using more descriptive
 // fields from the Author struct type
 func (a *Author) String() string {
-	return fmt.Sprintf("Author: %s", a.UUID)
+	return a.Name
 }
+
