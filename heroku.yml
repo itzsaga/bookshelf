@@ -1,7 +1,3 @@
 build:
-  language:
-    - go
-
-build:
   docker:
     web: Dockerfile
