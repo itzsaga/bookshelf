@@ -1,0 +1,1 @@
+web: ponzu build && ponzu run --https

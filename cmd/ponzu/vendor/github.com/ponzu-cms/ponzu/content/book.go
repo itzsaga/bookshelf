@@ -92,6 +92,6 @@ func (b *Book) Create(res http.ResponseWriter, req *http.Request) error {
 	return nil
 }
 
-func (b *Book) Approve(res http.ResponseWriter, req *http.Request) error {
+func (b *Book) AutoApprove(res http.ResponseWriter, req *http.Request) error {
 	return nil
 }
