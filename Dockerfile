@@ -24,5 +24,5 @@ COPY . .
 
 # Define the scripts we want run once the container boots
 RUN ponzu build
-CMD ponzu run --https
+CMD ponzu run
 
