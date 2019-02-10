@@ -22,8 +22,6 @@ WORKDIR $PROJECT_ROOT
 # Copy the ponzu source into ponzu root.
 COPY . .
 
-EXPOSE 8080
-
 # Define the scripts we want run once the container boots
 RUN ponzu build
 # CMD ponzu run
