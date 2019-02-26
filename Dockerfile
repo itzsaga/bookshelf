@@ -14,4 +14,4 @@ WORKDIR $PROJECT_ROOT
 RUN git clone $PROJECT_GITHUB .
 
 RUN ponzu build
-CMD ponzu run --port=${PORT}
+CMD ponzu run --port=${PORT} --bind=0.0.0.0
